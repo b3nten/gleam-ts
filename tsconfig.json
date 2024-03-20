@@ -19,9 +19,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-
-    "plugins": [{ "name": "ts-gleam-plugin" }],
-
-  },
-  "include": ["src", "ts-plugin/index.ts"]
+    "plugins": [{ "name": "ts-gleam" }],
+    "allowArbitraryExtensions": true
+  }
 }
